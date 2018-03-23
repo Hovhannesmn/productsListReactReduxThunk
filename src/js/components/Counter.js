@@ -8,7 +8,6 @@ class Counter extends React.Component {
         }, 500);
     }
     render() {
-debugger;
         return (
             <div>
                 <h3>Count: {this.props.count}</h3>
@@ -18,7 +17,6 @@ debugger;
 }
 
 const mapState = (state) => {
-    debugger;
     return {
         count: state.counterReducer,
         products       : state.dataReducer.data,

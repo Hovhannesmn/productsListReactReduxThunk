@@ -81,7 +81,7 @@ h6
 }
 
 .imge {
-  background-image: url(./fonts/bt-1.png);
+  background-image: url(fonts/bt-1.png);
   /*background-position: 0 -575px;*/
   background-repeat: no-repeat;
   width: 50px;
@@ -229,7 +229,7 @@ h6
   position: relative;
   line-height: 20px;
   border: 1px solid #fd9729;
-  color: #fff;
+  color: #564646;
   padding: 0 25px;
   background-color: #fd9729;
   width: 128px;
@@ -240,7 +240,7 @@ h6
   position: relative;
   line-height: 20px;
   border: 1px solid #fff;
-  color: #fff;
+  color: #564646;
   padding: 0 25px;
   width: 128px;
   height: 22px;
@@ -252,7 +252,7 @@ h6
   position: relative;
   line-height: 20px;
   border: 1px solid #fff;
-  color: #fff;
+  color: #564646;
   padding: -1px 13px;
   width: 124px;
   height: 22px;

@@ -24,7 +24,6 @@ import  bootstrap  from  './js/helpers/index';
 import Header from "./js/components/Header";
 import Products from "./js/components/Products";
 import WishList from "./js/components/WishList";
-import Counter from "./js/components/Counter";
 
 const middleware = [thunk, dataChanger, showCurrentProduct, payment];
 const store = createStore(allReducers,applyMiddleware(...middleware));
@@ -36,7 +35,6 @@ ReactDOM.render(
         <Router>
             <div>
                 <Header />
-                <Counter/>
                 <Switch>
                     <Route path='/wish-list' component={WishList} />
                     <Route path='/' component={Products} />

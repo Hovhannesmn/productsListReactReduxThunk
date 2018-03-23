@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import removeWishList from '../actions/removeWishList';
 import buyBroduct from '../actions/buyBroduct';
-import {getBody, getCurrentProduct, getId, getPrice, getTitle, getTs, getUserId} from "../selector/showProductSelector";
+import {getBody, getId, getPrice, getTitle, getTs, getUserId} from "../selector/showProductSelector";
 
 
 class ShowProductItem extends Component {
@@ -52,7 +52,6 @@ class ShowProductItem extends Component {
     };
 
     render() {
-        debugger;
         return (
             <div className="rightPart">
                 <h3> Buy Now </h3>
