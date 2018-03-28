@@ -69,12 +69,12 @@ class Products extends Component {
 
                         <button className={!wishList.includes(val.id.toString())? "products_add_to_card" : 'products_add_to_card_disabled'}
                                 value ={val.id} disabled={wishList.includes(val.id.toString())}
-                                onClick={this.addToCard.bind(this)}>ADD TO CART
+                                onClick={this.addToCard}>ADD TO CART
                         </button>
                         <button className={wishList.includes(val.id.toString())? "products_remove_to_card" : 'products_card_disabled'}
                                 value ={val.id}
                                 disabled={!wishList.includes(val.id.toString())}
-                                onClick={this.removeFromCard.bind(this)}>Remove From CART
+                                onClick={this.removeFromCard}>Remove From CART
                         </button>
                     </div>
                 </div>

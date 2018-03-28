@@ -47,7 +47,7 @@ class Filters extends React.Component {
             <p> Filter by date </p>
             <select
                  className="selector-left-bar"
-                 onChange={this.filterByParams.bind(this)}
+                 onChange={this.filterByParams}
                  ref={el => this.currentDate = el}
             >
                 <option key={0} value={0}>All Dates</option>
